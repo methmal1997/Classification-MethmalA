@@ -1,0 +1,38 @@
+K-nearest neighbour classification-n_neighbors (how much distance measure from the center)
+                                    metric(measurement metric)
+                                    
+Linear discriminant analysis- solver
+
+                              ‘svd’: Singular value decomposition (default). Does not compute the covariance matrix, therefore this solver is                               recommended for data with a large number of features.
+
+                             ‘lsqr’: Least squares solution. Can be combined with shrinkage or custom covariance estimator.
+
+                              ‘eigen’: Eigenvalue decomposition. Can be combined with shrinkage or custom covariance estimator.     
+
+
+Naïve Bayes classifier-var_smoothing (Portion of the largest variance of all features that is added to variances for calculation stability)
+
+
+Support vector machine - kernel,gamma
+
+
+Logistic regression - penalty
+
+
+Random forests  -  n_estimators -number of trees in the forest
+
+                   criterion - measure the quality of split
+                   
+                   
+Ada boost - n_estimators (The maximum number of estimators at which boosting is terminated)
+
+            algorithm
+            
+Gradient boost - max_depth(The maximum depth of the individual)
+                n_estimators (The number of boosting stages to perform)
+                earning_rate (Learning rate shrinks the contribution of each tree by learning_rate)
+                
+XGBoost  - gamma
+           eta
+
+                    
