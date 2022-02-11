@@ -1,9 +1,90 @@
-{"name": "KNN", "time": 0.08675670623779297, "f1_score": 0.6948215051575267, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 1, "weights": "uniform"}, "Cross validation score": 0.5596183614860086}
-{"name": "Linear_Dis", "time": 0.0787959098815918, "f1_score": 0.4943306388355354, "Best_Parameter": {"solver": "svd"}, "Cross validation score": 0.5596183614860086}
-{"name": "Naive Bayes", "time": 0.05784273147583008, "f1_score": 0.46021406505240126, "Best_Parameter": {"var_smoothing": 1e-09}, "Cross validation score": 0.4261630153304382}
-{"name": "Support_Vector", "time": 0.08480978012084961, "f1_score": 0.6978232649400613, "Best_Parameter": {"C": 19, "gamma": "scale", "kernel": "poly"}, "Cross validation score": 0.48625400131583474}
-{"name": "Logistic", "time": 0.0898127555847168, "f1_score": 0.3665027853775585, "Best_Parameter": {"penalty": "l2"}, "Cross validation score": 0.48625400131583474}
-{"name": "Random", "time": 2.2988901138305664, "f1_score": 0.7919171818685167, "Best_Parameter": {"criterion": "gini", "n_estimators": 18}, "Cross validation score": 0.7244509434954156}
-{"name": "Adaboost", "time": 2.2499382495880127, "f1_score": 0.4977531590345568, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 97}, "Cross validation score": 0.35204776878694855}
-{"name": "Gradient", "time": 1.2191698551177979, "f1_score": 0.6296959320223696, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 6, "n_estimators": 100}, "Cross validation score": 0.3498483385875183}
-{"name": "XGboost", "time": 3.612431287765503, "f1_score": 0.6935561421851745, "Best_Parameter": {"eta": 0.05, "gamma": 2}, "Cross validation score": 0.6808922554685821}
+{"Random State": 1, "name": "KNN", "time": 2.413536787033081, "f1_score": 0.6948215051575267, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 1, "weights": "uniform"}}
+{"Random State": 2, "name": "KNN", "time": 2.7626113891601562, "f1_score": 0.6969304496822, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
+{"Random State": 3, "name": "KNN", "time": 2.6778347492218018, "f1_score": 0.6402414200625176, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
+{"Random State": 4, "name": "KNN", "time": 2.8674182891845703, "f1_score": 0.6604184287652848, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
+{"Random State": 5, "name": "KNN", "time": 2.93813157081604, "f1_score": 0.6810527917317161, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 1, "weights": "uniform"}}
+{"Random State": 6, "name": "KNN", "time": 2.6200292110443115, "f1_score": 0.6686838243397382, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 4, "weights": "distance"}}
+{"Random State": 7, "name": "KNN", "time": 2.7606122493743896, "f1_score": 0.7002870328458946, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 4, "weights": "distance"}}
+{"Random State": 8, "name": "KNN", "time": 2.587073802947998, "f1_score": 0.6885182351705339, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
+{"Random State": 9, "name": "KNN", "time": 2.472379684448242, "f1_score": 0.7141992178504971, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
+{"Random State": 10, "name": "KNN", "time": 2.5252490043640137, "f1_score": 0.6645971701536217, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
+{"Random State": 1, "name": "KNN", "time": 0.18347668647766113, "f1_score": 0.4943306388355354, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 2, "name": "KNN", "time": 0.2293846607208252, "f1_score": 0.5339463420956747, "Best_Parameter": {"solver": "lsqr"}}
+{"Random State": 3, "name": "KNN", "time": 0.14361000061035156, "f1_score": 0.46026486914807274, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 4, "name": "KNN", "time": 0.13065528869628906, "f1_score": 0.5228223865058229, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 5, "name": "KNN", "time": 0.11971902847290039, "f1_score": 0.521308213290972, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 6, "name": "KNN", "time": 0.12766742706298828, "f1_score": 0.5336240854338578, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 7, "name": "KNN", "time": 0.1246645450592041, "f1_score": 0.5125040668144116, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 8, "name": "KNN", "time": 0.11864304542541504, "f1_score": 0.5181200405331604, "Best_Parameter": {"solver": "lsqr"}}
+{"Random State": 9, "name": "KNN", "time": 0.12969732284545898, "f1_score": 0.5449607495662208, "Best_Parameter": {"solver": "lsqr"}}
+{"Random State": 10, "name": "KNN", "time": 0.13763666152954102, "f1_score": 0.5231431579268336, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 1, "name": "Naive", "time": 0.30716419219970703, "f1_score": 0.46021406505240126, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 2, "name": "Naive", "time": 0.2772407531738281, "f1_score": 0.4521724737901208, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 3, "name": "Naive", "time": 0.282285213470459, "f1_score": 0.39485006740317014, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 4, "name": "Naive", "time": 0.28923654556274414, "f1_score": 0.4365671504267995, "Best_Parameter": {"var_smoothing": 3e-09}}
+{"Random State": 5, "name": "Naive", "time": 0.3081386089324951, "f1_score": 0.47019858175030593, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 6, "name": "Naive", "time": 0.35106825828552246, "f1_score": 0.4155052071098583, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 7, "name": "Naive", "time": 0.3381376266479492, "f1_score": 0.4319822853761148, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 8, "name": "Naive", "time": 0.33710384368896484, "f1_score": 0.4291748278894227, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 9, "name": "Naive", "time": 0.2978949546813965, "f1_score": 0.46594414290066466, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 10, "name": "Naive", "time": 0.32213902473449707, "f1_score": 0.4747888581822294, "Best_Parameter": {"var_smoothing": 1e-09}}
+{"Random State": 1, "name": "Support", "time": 2.8414430618286133, "f1_score": 0.6978232649400613, "Best_Parameter": {"C": 19, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 2, "name": "Support", "time": 3.235290288925171, "f1_score": 0.6466471538628402, "Best_Parameter": {"C": 19, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 3, "name": "Support", "time": 2.810533285140991, "f1_score": 0.7012095499407545, "Best_Parameter": {"C": 17, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 4, "name": "Support", "time": 3.1326534748077393, "f1_score": 0.6392662155543134, "Best_Parameter": {"C": 19, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 5, "name": "Support", "time": 3.057786464691162, "f1_score": 0.687204593239076, "Best_Parameter": {"C": 19, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 6, "name": "Support", "time": 3.2463088035583496, "f1_score": 0.6722214205547539, "Best_Parameter": {"C": 12, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 7, "name": "Support", "time": 3.2353458404541016, "f1_score": 0.7189376394215103, "Best_Parameter": {"C": 18, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 8, "name": "Support", "time": 3.2991700172424316, "f1_score": 0.7057716184857453, "Best_Parameter": {"C": 14, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 9, "name": "Support", "time": 2.596090078353882, "f1_score": 0.6919726293118024, "Best_Parameter": {"C": 15, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 10, "name": "Support", "time": 2.6020445823669434, "f1_score": 0.6661927424427425, "Best_Parameter": {"C": 7, "gamma": "scale", "kernel": "poly"}}
+{"Random State": 1, "name": "Logistic", "time": 0.17253780364990234, "f1_score": 0.3665027853775585, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 2, "name": "Logistic", "time": 0.1436152458190918, "f1_score": 0.3638826892706203, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 3, "name": "Logistic", "time": 0.14465999603271484, "f1_score": 0.31763251234551043, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 4, "name": "Logistic", "time": 0.14058256149291992, "f1_score": 0.36176166022465833, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 5, "name": "Logistic", "time": 0.13751530647277832, "f1_score": 0.3708617148617148, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 6, "name": "Logistic", "time": 0.14760637283325195, "f1_score": 0.3718584147918212, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 7, "name": "Logistic", "time": 0.14461660385131836, "f1_score": 0.3673046882897066, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 8, "name": "Logistic", "time": 0.13865065574645996, "f1_score": 0.3239882379730577, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 9, "name": "Logistic", "time": 0.13963770866394043, "f1_score": 0.34863490420890797, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 10, "name": "Logistic", "time": 0.14162898063659668, "f1_score": 0.36524227019548616, "Best_Parameter": {"penalty": "l2"}}
+{"Random State": 1, "name": "Random", "time": 2.823489189147949, "f1_score": 0.8050786323032719, "Best_Parameter": {"criterion": "gini", "n_estimators": 15}}
+{"Random State": 2, "name": "Random", "time": 2.8124306201934814, "f1_score": 0.7350989423180747, "Best_Parameter": {"criterion": "entropy", "n_estimators": 15}}
+{"Random State": 3, "name": "Random", "time": 2.8453867435455322, "f1_score": 0.7451607855505704, "Best_Parameter": {"criterion": "entropy", "n_estimators": 17}}
+{"Random State": 4, "name": "Random", "time": 2.791189193725586, "f1_score": 0.7125699645014951, "Best_Parameter": {"criterion": "gini", "n_estimators": 16}}
+{"Random State": 5, "name": "Random", "time": 2.7975192070007324, "f1_score": 0.7696335867145481, "Best_Parameter": {"criterion": "entropy", "n_estimators": 18}}
+{"Random State": 6, "name": "Random", "time": 2.8084840774536133, "f1_score": 0.7152868828643655, "Best_Parameter": {"criterion": "entropy", "n_estimators": 19}}
+{"Random State": 7, "name": "Random", "time": 2.784562587738037, "f1_score": 0.7751815175471363, "Best_Parameter": {"criterion": "gini", "n_estimators": 9}}
+{"Random State": 8, "name": "Random", "time": 2.769592761993408, "f1_score": 0.7342757022053462, "Best_Parameter": {"criterion": "gini", "n_estimators": 16}}
+{"Random State": 9, "name": "Random", "time": 2.8055500984191895, "f1_score": 0.756920154164069, "Best_Parameter": {"criterion": "entropy", "n_estimators": 17}}
+{"Random State": 10, "name": "Random", "time": 2.8094258308410645, "f1_score": 0.7489731018434479, "Best_Parameter": {"criterion": "gini", "n_estimators": 15}}
+{"Random State": 1, "name": "Ada boost", "time": 47.70535588264465, "f1_score": 0.4977531590345568, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 97}}
+{"Random State": 2, "name": "Ada boost", "time": 51.257476568222046, "f1_score": 0.4661036634105688, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 99}}
+{"Random State": 3, "name": "Ada boost", "time": 48.77449369430542, "f1_score": 0.466349134571913, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 42}}
+{"Random State": 4, "name": "Ada boost", "time": 48.84726071357727, "f1_score": 0.5168760815766488, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 73}}
+{"Random State": 5, "name": "Ada boost", "time": 47.84396696090698, "f1_score": 0.47735220904930165, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 80}}
+{"Random State": 6, "name": "Ada boost", "time": 48.153159379959106, "f1_score": 0.5038453615993685, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 95}}
+{"Random State": 7, "name": "Ada boost", "time": 47.99263095855713, "f1_score": 0.49796333760231165, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 98}}
+{"Random State": 8, "name": "Ada boost", "time": 50.63052415847778, "f1_score": 0.4924869674413547, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 58}}
+{"Random State": 9, "name": "Ada boost", "time": 47.50884246826172, "f1_score": 0.49209881320644777, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 72}}
+{"Random State": 10, "name": "Ada boost", "time": 47.655808448791504, "f1_score": 0.4920993878266679, "Best_Parameter": {"algorithm": "SAMME", "n_estimators": 76}}
+{"Random State": 1, "name": "Gradient", "time": 27.581200122833252, "f1_score": 0.6319808782589287, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 6, "n_estimators": 100}}
+{"Random State": 2, "name": "Gradient", "time": 27.77268886566162, "f1_score": 0.6195903649351926, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 6, "n_estimators": 100}}
+{"Random State": 3, "name": "Gradient", "time": 29.36823606491089, "f1_score": 0.5978442648172904, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 7, "n_estimators": 100}}
+{"Random State": 4, "name": "Gradient", "time": 29.385379314422607, "f1_score": 0.5843994750224221, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 8, "n_estimators": 100}}
+{"Random State": 5, "name": "Gradient", "time": 29.694138526916504, "f1_score": 0.5868497480455211, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 7, "n_estimators": 100}}
+{"Random State": 6, "name": "Gradient", "time": 29.10109543800354, "f1_score": 0.6154058583466223, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 8, "n_estimators": 100}}
+{"Random State": 7, "name": "Gradient", "time": 28.33666682243347, "f1_score": 0.6913815754138335, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 6, "n_estimators": 100}}
+{"Random State": 8, "name": "Gradient", "time": 27.585235595703125, "f1_score": 0.6141722299467015, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 6, "n_estimators": 100}}
+{"Random State": 9, "name": "Gradient", "time": 26.796255350112915, "f1_score": 0.6382801866592189, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 5, "n_estimators": 100}}
+{"Random State": 10, "name": "Gradient", "time": 27.711276531219482, "f1_score": 0.6179982977827805, "Best_Parameter": {"learning_rate": 0.01, "max_depth": 6, "n_estimators": 100}}
+{"Random State": 1, "name": "XGBoost", "time": 60.261754274368286, "f1_score": 0.6935561421851745, "Best_Parameter": {"eta": 0.05, "gamma": 2}}
+{"Random State": 2, "name": "XGBoost", "time": 55.789727449417114, "f1_score": 0.7060034014928342, "Best_Parameter": {"eta": 0.05, "gamma": 1}}
+{"Random State": 3, "name": "XGBoost", "time": 57.242839097976685, "f1_score": 0.6741499153011945, "Best_Parameter": {"eta": 0.05, "gamma": 1}}
+{"Random State": 4, "name": "XGBoost", "time": 54.87018346786499, "f1_score": 0.7265032038027597, "Best_Parameter": {"eta": 0.01, "gamma": 1}}
+{"Random State": 5, "name": "XGBoost", "time": 59.46193814277649, "f1_score": 0.7175989642952935, "Best_Parameter": {"eta": 0.01, "gamma": 2}}
+{"Random State": 6, "name": "XGBoost", "time": 71.83279919624329, "f1_score": 0.6640612988703459, "Best_Parameter": {"eta": 0.01, "gamma": 1}}
+{"Random State": 7, "name": "XGBoost", "time": 65.06195402145386, "f1_score": 0.7286521154040619, "Best_Parameter": {"eta": 0.01, "gamma": 1}}
+{"Random State": 8, "name": "XGBoost", "time": 65.38101291656494, "f1_score": 0.6476652553937501, "Best_Parameter": {"eta": 0.01, "gamma": 2}}
+{"Random State": 9, "name": "XGBoost", "time": 60.50012731552124, "f1_score": 0.6943213905048915, "Best_Parameter": {"eta": 0.05, "gamma": 1}}
+{"Random State": 10, "name": "XGBoost", "time": 64.89440202713013, "f1_score": 0.702718196336514, "Best_Parameter": {"eta": 0.05, "gamma": 1}}
