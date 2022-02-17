@@ -8,16 +8,16 @@
 {"Random State": 8, "name": "KNN", "time": 2.587073802947998, "f1_score": 0.6885182351705339, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
 {"Random State": 9, "name": "KNN", "time": 2.472379684448242, "f1_score": 0.7141992178504971, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
 {"Random State": 10, "name": "KNN", "time": 2.5252490043640137, "f1_score": 0.6645971701536217, "Best_Parameter": {"metric": "manhattan", "n_neighbors": 3, "weights": "distance"}}
-{"Random State": 1, "name": "KNN", "time": 0.18347668647766113, "f1_score": 0.4943306388355354, "Best_Parameter": {"solver": "svd"}}
-{"Random State": 2, "name": "KNN", "time": 0.2293846607208252, "f1_score": 0.5339463420956747, "Best_Parameter": {"solver": "lsqr"}}
-{"Random State": 3, "name": "KNN", "time": 0.14361000061035156, "f1_score": 0.46026486914807274, "Best_Parameter": {"solver": "svd"}}
-{"Random State": 4, "name": "KNN", "time": 0.13065528869628906, "f1_score": 0.5228223865058229, "Best_Parameter": {"solver": "svd"}}
-{"Random State": 5, "name": "KNN", "time": 0.11971902847290039, "f1_score": 0.521308213290972, "Best_Parameter": {"solver": "svd"}}
-{"Random State": 6, "name": "KNN", "time": 0.12766742706298828, "f1_score": 0.5336240854338578, "Best_Parameter": {"solver": "svd"}}
-{"Random State": 7, "name": "KNN", "time": 0.1246645450592041, "f1_score": 0.5125040668144116, "Best_Parameter": {"solver": "svd"}}
-{"Random State": 8, "name": "KNN", "time": 0.11864304542541504, "f1_score": 0.5181200405331604, "Best_Parameter": {"solver": "lsqr"}}
-{"Random State": 9, "name": "KNN", "time": 0.12969732284545898, "f1_score": 0.5449607495662208, "Best_Parameter": {"solver": "lsqr"}}
-{"Random State": 10, "name": "KNN", "time": 0.13763666152954102, "f1_score": 0.5231431579268336, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 1, "name": "Linear", "time": 0.18347668647766113, "f1_score": 0.4943306388355354, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 2, "name": "Linear", "time": 0.2293846607208252, "f1_score": 0.5339463420956747, "Best_Parameter": {"solver": "lsqr"}}
+{"Random State": 3, "name": "Linear", "time": 0.14361000061035156, "f1_score": 0.46026486914807274, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 4, "name": "Linear", "time": 0.13065528869628906, "f1_score": 0.5228223865058229, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 5, "name": "Linear", "time": 0.11971902847290039, "f1_score": 0.521308213290972, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 6, "name": "Linear", "time": 0.12766742706298828, "f1_score": 0.5336240854338578, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 7, "name": "Linear", "time": 0.1246645450592041, "f1_score": 0.5125040668144116, "Best_Parameter": {"solver": "svd"}}
+{"Random State": 8, "name": "Linear", "time": 0.11864304542541504, "f1_score": 0.5181200405331604, "Best_Parameter": {"solver": "lsqr"}}
+{"Random State": 9, "name": "Linear", "time": 0.12969732284545898, "f1_score": 0.5449607495662208, "Best_Parameter": {"solver": "lsqr"}}
+{"Random State": 10, "name": "Linear", "time": 0.13763666152954102, "f1_score": 0.5231431579268336, "Best_Parameter": {"solver": "svd"}}
 {"Random State": 1, "name": "Naive", "time": 0.30716419219970703, "f1_score": 0.46021406505240126, "Best_Parameter": {"var_smoothing": 1e-09}}
 {"Random State": 2, "name": "Naive", "time": 0.2772407531738281, "f1_score": 0.4521724737901208, "Best_Parameter": {"var_smoothing": 1e-09}}
 {"Random State": 3, "name": "Naive", "time": 0.282285213470459, "f1_score": 0.39485006740317014, "Best_Parameter": {"var_smoothing": 1e-09}}
